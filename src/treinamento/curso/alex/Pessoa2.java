@@ -8,6 +8,8 @@ public class Pessoa2 {
 
 	private int idade;
 
+	private int data;
+
 	public String getNome() {
 		return nome;
 	}
