@@ -5,20 +5,22 @@ import java.util.Date;
 public class Pessoa2 {
 	
 	private String nome;
-
-	public Date getDataNascimento() {
-		return dataNascimento;
-	}
-
-	public void setDataNascimento(Date dataNascimento) {
-		this.dataNascimento = dataNascimento;
-	}
-
+	
 	private String sobrenome;
 
 	private int idade;
 
 	private Date dataNascimento;
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	private String cor;
 
 	public int getIdade() {
 		return idade;
